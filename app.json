@@ -1,0 +1,12 @@
+{
+  "name": "myKolo",
+  "displayName": "myKolo",
+  "expo": {
+    "name": "myKolo",
+    "slug": "myKolo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
