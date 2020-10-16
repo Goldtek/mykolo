@@ -25,11 +25,11 @@ export default (props) => {
           style={style.background}
           source={earn}
        >
-         <View style={style.topNav}>
+         {/* <View style={style.topNav}>
                 <FontAwesome name="chevron-left" size={28} color="black" onPress={() => props.navigation.goBack()} />
                 <Image source={logo} style={style.imgSize} />
                 <Text>Skip Here</Text>
-            </View>
+            </View> */}
 
          <TouchableOpacity style={style.button} onPress={()=> props.navigation.push('Welcome')}>
             <Image source={ic} style={style.img}/>
@@ -68,7 +68,8 @@ const style = StyleSheet.create({
     paddingHorizontal:20,
     flexDirection: 'row',
     justifyContent:'space-between',
-    alignItems: "center"
+    alignItems: "center",
+    alignSelf: 'center'
 
   },
 
