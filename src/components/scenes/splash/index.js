@@ -9,12 +9,11 @@ import {
   Dimensions,
   StatusBar
 } from "react-native";
-
 import colors from "../../styles/colors";
 
 
 const logo = require("../../../assets/images/splash.png");
-const { height, width } = Dimensions.get("screen");
+const { height, width } = Dimensions.get("window");
 
 export default (props) => {
     useEffect(()=>{
